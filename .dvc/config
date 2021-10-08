@@ -1,4 +1,6 @@
 [core]
-    remote = bikes_storage
+    remote = remote
 ['remote "bikes_storage"']
     url = s3://bikestorage
+['remote "remote"']
+    url = s3://bikestorage-test/bikes
